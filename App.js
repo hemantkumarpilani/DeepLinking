@@ -18,10 +18,7 @@ const App = () => {
 
   const linking = {
     // prefixes: ['app//', '192.168.110.45:3000'],
-    prefixes: [
-      'http://192.168.110.45:3000/app',
-      'https://192.168.110.45:3000/app',
-    ],
+    prefixes: ['https://192.168.110.45:3000/app'],
 
     config: {
       screens: {
